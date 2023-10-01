@@ -1,5 +1,5 @@
 {
-  "name": "gustavoduran-components",
+  "name": "svelte-components",
   "version": "0.0.1",
   "author": "Gustavo Duran Ferreira <duransbo@gmail.com>",
   "scripts": {
@@ -251,5 +251,10 @@
     "yaml": "^1.10.2",
     "yocto-queue": "^0.1.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "github:duransbo/svelte-components",
+  "keywords": [
+    "svelte"
+  ],
+  "homepage": "https://github.com/duransbo/svelte-components#readme"
 }
