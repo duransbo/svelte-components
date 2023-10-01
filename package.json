@@ -1,5 +1,5 @@
 {
-  "name": "svelte-components",
+  "name": "@duransbo/svelte-components",
   "version": "0.0.1",
   "author": "Gustavo Duran Ferreira <duransbo@gmail.com>",
   "scripts": {
@@ -252,9 +252,23 @@
     "yocto-queue": "^0.1.0"
   },
   "license": "MIT",
-  "repository": "github:duransbo/svelte-components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duransbo/svelte-components.git"
+  },
   "keywords": [
     "svelte"
   ],
-  "homepage": "https://github.com/duransbo/svelte-components#readme"
+  "homepage": "https://github.com/duransbo/svelte-components#readme",
+  "bugs": {
+    "url": "https://github.com/duransbo/svelte-components/issues"
+  },
+  "files": ["dist"],
+  "exports": {
+	".": {
+	  "types": "./dist/index.d.ts",
+	  "default": "./dist/index.js"
+	}
+  },
+  "svelte": "./dist/index.js"
 }
