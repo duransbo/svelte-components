@@ -1,6 +1,6 @@
 {
 	"name": "@duransbo/svelte-components",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"author": "Gustavo Duran Ferreira <duransbo@gmail.com>",
 	"scripts": {
 		"dev": "vite dev",
@@ -17,7 +17,7 @@
 	},
 	"exports": {
 		".": {
-			"default": "./dist/AllComponents.js"
+			"default": "./dist/index.js"
 		}
 	},
 	"files": [
